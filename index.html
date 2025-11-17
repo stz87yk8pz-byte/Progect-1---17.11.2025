@@ -49,5 +49,36 @@
     <a href="file:///C:/Users/lizak/OneDrive/%D0%A0%D0%B0%D0%B1%D0%BE%D1%87%D0%B8%D0%B9%20%D1%81%D1%82%D0%BE%D0%BB/Web-%D0%BA%D1%83%D1%80%D1%81/%D0%A3%D1%80%D0%BE%D0%BA%202/task1.html">Перейти к заказу
 </a>
      <h2>Форма обратной связи</h2>
+     <form action="/submit" method="post">
+    <label for="name">Ваше имя:</label>
+    <input type="text" id="name" name="name" required> <br><br>
+    
+    <label for="email">Ваш email:</label>
+    <input type="email" id="email" name="email" required><br>
+    <br>
+    <label for="country">Тема сообщения:</label>
+<select id="country" name="country">
+    <option value="">Предложение о работе</option>
+    <option value="ru">Обратная связь о выполненном проекте</option>
+    <option value="us">Другое</option>
+</select><br><br>
+
+<label for="message">Сообщение:</label><br>
+<textarea id="message" name="message" rows="3" cols="40" placeholder="Введите ваше сообщение..."></textarea><br><br>
+
+<input type="checkbox" id="subscribe" name="subscribe" checked>
+<label for="subscribe">Хочу получать новости о новых проектах</label><br><br>
+
+<label for="name">Срочность:</label><br>
+    
+<input type="radio" id="male" name="gender" value="male">
+<label for="male">Срочно</label>
+<input type="radio" id="female" name="gender" value="female">
+<label for="female">Не срочно</label><br><br>
+
+    <input type="submit" value="Отправитьсообщение">
+  <input type="reset" value="Очистить форму">
+  
+</form>
 </body>
 </html>
