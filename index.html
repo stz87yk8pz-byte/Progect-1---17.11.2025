@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Обо мне</h1>
+     <img src="фото137.jpg"height="200">
+     <p> Привет! Меня зовут Елизавета, и я начинающий веб-разработчик. Недавно начала изучать HTML и уже создаю свои первые сайты. </p>
+     <h2>Мое образование:</h2>
+    <table>
+        <tr>
+            <td>Год</td>
+           <td>Учебное заведение</td>
+           <td>Специальность</td>
+        </tr>
+         <tr>
+            <td>2015-2020</td>
+           <td>НГСХА</td>
+           <td>Ветеринария</td>
+        </tr>
+        <tr>
+            <td>2025</td>
+           <td>Веб-разработка</td>
+           <td>Frontend-разработчик</td>
+        </tr>
+    </table>
+    <h1>Мои навыки:</h1>
+     <ul> 
+    <li>HTML5</li>
+    <li>Основы CSS</li>
+    <li>Работа с хостингом</li>
+<li>Создание форм</li>
+    </ul>
+   <h2>Уровень владения:</h2>
+    <ol> 
+    <li> HTML - продвинутый</li>
+    <li>CSS - начальный</li>
+    <li> JavaScript- планирую изучать</li>
+    </ol>
+    <h1>Мои проекты</h1>
+    <h2>Сайт визитка</h2>
+    <p>Мой первый сайт, созданный на курсах</p>
+    <a href="index.html">Посмотреть проект</a> 
+
+    <h2>Сайт пиццерии</h2>
+    <p>Учебный проект с формой заказа</p>
+     <a href="index2.html">Перейти к заказу </a> 
+
+     <h2>Форма обратной связи</h2>
+     <form action="/submit" method="post">
+    <label for="name">Ваше имя:</label>
+    <input type="text" id="name" name="name" required> <br><br>
+
+    <label for="email">Ваш email:</label>
+    <input type="email" id="email" name="email" required><br>
+    <br>
+    <label for="country">Тема сообщения:</label>
+<select id="country" name="country">
+    <option value="">Предложение о работе</option>
+    <option value="ru">Обратная связь о выполненном проекте</option>
+    <option value="us">Другое</option>
+</select><br><br>
+
+<label for="message">Сообщение:</label><br>
+<textarea id="message" name="message" rows="3" cols="40" placeholder="Введите ваше сообщение..."></textarea><br><br>
+
+<input type="checkbox" id="subscribe" name="subscribe" checked>
+<label for="subscribe">Хочу получать новости о новых проектах</label><br><br>
+
+<label for="name">Срочность:</label><br>
+
+<input type="radio" id="male" name="gender" value="male">
+<label for="male">Срочно</label>
+<input type="radio" id="female" name="gender" value="female">
+<label for="female">Не срочно</label><br><br>
+
+    <input type="submit" value="Отправитьсообщение">
+  <input type="reset" value="Очистить форму">
+
+</form>
+</body>
+</html>
